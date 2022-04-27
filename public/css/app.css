@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -14,25 +22,21 @@ header .container {
   justify-content: space-between;
   align-items: center;
 }
-
 header ul {
   display: flex;
   height: 8rem;
 }
-
 header ul li {
   display: inline-block;
   padding: 1rem;
   height: 100%;
 }
-
 header ul li a {
   height: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-
 header ul .input {
   display: flex;
   align-items: center;
@@ -54,13 +58,11 @@ header ul .input {
 .main-grid {
   background-color: #1C1C1C;
 }
-
 .main-grid .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .main-grid .container div {
   flex: 0 0 16%;
   word-wrap: anywhere;
@@ -70,21 +72,17 @@ header ul .input {
   text-align: center;
   background-color: #0282F9;
 }
-
 .main-banner .container {
   display: flex;
   justify-content: space-between;
 }
-
 .main-banner .banner {
   display: flex;
   align-items: center;
 }
-
 .main-banner div {
   display: inline-block;
 }
-
 .main-banner img {
   width: 4rem;
   height: 5rem;
@@ -93,17 +91,16 @@ header ul .input {
 }
 
 .footer-links-bg {
+  background-image: url("../images/footer-bg.jpg");
   background-size: cover;
   height: 400px;
   overflow: hidden;
   position: relative;
 }
-
 .footer-links-bg .footer-links {
   display: flex;
   justify-content: space-evenly;
 }
-
 .footer-links-bg .footer-links img {
   position: relative;
   bottom: 60px;
@@ -112,14 +109,13 @@ header ul .input {
 
 .footer-socials-bg {
   height: 6rem;
-  background-color: darkgrey;
+  background-color: #303030;
 }
 
 .footer-socials {
   display: flex;
   justify-content: space-between;
 }
-
 .footer-socials .socials {
   display: flex;
   align-items: center;
@@ -134,4 +130,3 @@ header ul .input {
      object-position: top;
   width: 192px;
 }
-

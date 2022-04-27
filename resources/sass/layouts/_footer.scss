@@ -1,5 +1,7 @@
+@use '../abstracts/variables' as *;
+
 .footer-links-bg {
-    // background-image: url('images/footer-bg.jpg');
+    background-image: url('../images/footer-bg.jpg');
     background-size: cover;
     height: 400px;
     overflow: hidden;
@@ -16,7 +18,7 @@
 }
 .footer-socials-bg {
     height: 6rem;
-    background-color: darkgrey;
+    background-color: $mainColor;
 }
 .footer-socials {
     display: flex;

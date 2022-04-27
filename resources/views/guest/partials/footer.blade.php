@@ -2,8 +2,27 @@
     <div class="footer-links-bg">
         <div class="container">
             <div class="footer-links">
+
                 <ul>
                     <h3>DC COMICS</h3>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
                     <li>
                         link
                     </li>
@@ -12,16 +31,63 @@
                         <li>
                             link
                         </li>
+                        <li>
+                            link
+                        </li>
                     </ul>
                 </ul>
+
                 <ul>
                     <h3>DC</h3>
                     <li>
                         link
                     </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
                 </ul>
+
                 <ul>
                     <h3>SITES</h3>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
+                    <li>
+                        link
+                    </li>
                     <li>
                         link
                     </li>
