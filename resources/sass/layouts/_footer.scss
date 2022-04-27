@@ -1,0 +1,29 @@
+.footer-links-bg {
+    // background-image: url('images/footer-bg.jpg');
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    .footer-links {
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            position: relative;
+            bottom: 60px;
+            margin-left: 16rem;
+        }
+    }
+}
+.footer-socials-bg {
+    height: 6rem;
+    background-color: darkgrey;
+}
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}

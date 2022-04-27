@@ -5,6 +5,7 @@
     {{-- links --}}
     <div class="container">
         <img src="images/dc-logo.png" alt="">
+
         <ul>
             <li>
                 <a href="#">
@@ -56,10 +57,15 @@
                     SHOP
                 </a>
             </li>
+            <li class="input">
+                <input type="text">
+            </li>
         </ul>
-        <input type="text">
+
     </div>
 
     {{-- cover --}}
-    <img src="images/jumbotron.jpg" alt="">
+    <div class="jumbotron">
+        <img class="jumbotron-cover" src="images/jumbotron.jpg" alt="">
+    </div>
 </header>
