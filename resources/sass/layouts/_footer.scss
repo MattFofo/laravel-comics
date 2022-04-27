@@ -21,8 +21,10 @@
     background-color: $mainColor;
 }
 .footer-socials {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .socials {
         display: flex;
         align-items: center;

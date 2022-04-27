@@ -6,6 +6,7 @@
     <main>
         <div class="main-grid">
             <div class="container">
+                <div class="content-tag">CURRENT SERIES</div>
                 @foreach ($comics as $comic)
                 <div class="comic-card">
                     <a href="#">
@@ -16,7 +17,6 @@
 
                 @endforeach
             </div>
-
         </div>
 
 

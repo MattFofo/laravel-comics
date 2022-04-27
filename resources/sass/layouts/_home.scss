@@ -1,8 +1,20 @@
 @use '../abstracts/variables' as *;
 
+.content-tag {
+    background-color: $primaryColor;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+
 .main-grid {
     background-color: $secondaryColor;
     .container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        position: relative;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -13,6 +25,8 @@
     }
 }
 .main-banner {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
     text-align: center;
     background-color: $primaryColor;
     .container {

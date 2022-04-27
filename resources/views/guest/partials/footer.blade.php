@@ -97,7 +97,7 @@
         </div>
     </div>
     <div class="footer-socials-bg">
-        <div class="container">
+        <div class="container h-100">
             <div class="footer-socials">
                 <button>join now</button>
                 <div class="socials">
