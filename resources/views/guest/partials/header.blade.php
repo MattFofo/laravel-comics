@@ -1,6 +1,6 @@
 <header>
     {{-- banner blue --}}
-    <div></div>
+    <div class="top-header"></div>
 
     {{-- links --}}
     <div class="container">
