@@ -4,59 +4,73 @@
 
     {{-- links --}}
     <div class="container">
-        <img src="images/dc-logo.png" alt="">
+        <img src="{{ asset('images/dc-logo.png') }}" alt="">
 
         <ul>
-            <li>
-                <a href="#">
-                    CHARACTERS
+            @php
+                $linksMenu = [
+                    [
+                        'active'     =>  ['characters'],
+                        'route'    =>  'characters',
+                        'text'      =>  'CHARACTERS'
+                    ],
+                    [
+                        'active'     =>  ['home', 'comic'],
+                        'route'    =>  'home',
+                        'text'      =>  'COMICS'
+                    ],
+                    [
+                        'active'     =>  ['movies'],
+                        'route'    =>  'movies',
+                        'text'      =>  'MOVIES'
+                    ],
+                    [
+                        'active'     =>  ['tv'],
+                        'route'    =>  'tv',
+                        'text'      =>  'TV'
+                    ],
+                    [
+                        'active'     =>  ['games'],
+                        'route'    =>  'games',
+                        'text'      =>  'GAMES'
+                    ],
+                    [
+                        'active'     =>  ['collectibles'],
+                        'route'    =>  'collectibles',
+                        'text'      =>  'COLLECTIBLES'
+                    ],
+                    [
+                        'active'     =>  ['videos'],
+                        'route'    =>  'videos',
+                        'text'      =>  'VIDEOS'
+                    ],
+                    [
+                        'active'     =>  ['fans'],
+                        'route'    =>  'fans',
+                        'text'      =>  'FANS'
+                    ],
+                    [
+                        'active'     =>  ['news'],
+                        'route'    =>  'news',
+                        'text'      =>  'NEWS'
+                    ],
+                    [
+                        'active'     =>  ['shop'],
+                        'route'    =>  'shop',
+                        'text'      =>  'SHOP'
+                    ],
+
+                ]
+            @endphp
+
+            @foreach ($linksMenu as $link)
+            <li class="{{ in_array(Route::currentRouteName(), $link['active']) ? 'active' : ''}}">
+                <a href="{{ Route($link['route']) }}">
+                    {{ $link['text'] }}
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    COMICS
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    MOVIE
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    TV
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    GAMES
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    COLLECTIBLES
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    VIDEOS
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    FANS
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    NEWS
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    SHOP
-                </a>
-            </li>
+            @endforeach
+
             <li class="input">
                 <input type="text">
             </li>
@@ -66,6 +80,6 @@
 
     {{-- cover --}}
     <div class="jumbotron">
-        <img class="jumbotron-cover" src="images/jumbotron.jpg" alt="">
+        <img class="jumbotron-cover" src="{{ asset('images/jumbotron.jpg') }}" alt="">
     </div>
 </header>
